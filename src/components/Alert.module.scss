@@ -1,0 +1,12 @@
+.alert {
+	padding: 1rem;
+	line-height: 0.5rem;
+	&.alert-primary {
+		background-color: green;
+		color: white;
+	}
+	&.alert-danger {
+		background-color: red;
+		color: white;
+	}
+}
